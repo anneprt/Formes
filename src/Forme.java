@@ -36,7 +36,7 @@ public class Forme {
         couleur = verifier("couleur", 0, COULEUR_MAX);
     }
 
-    public Forme(int nx, int ny,) {
+    public Forme(int nx, int ny, int nc) {
         x = verifier("en X", 0, LARGEUR_ECRAN);
         y = verifier("en Y", 0, HAUTEUR_ECRAN);
         couleur = verifier("couleur", 0, COULEUR_MAX);
@@ -47,7 +47,7 @@ public class Forme {
         y = verifier(y + ny, 0, HAUTEUR_ECRAN);
     }
 
-    public void colorier(int nc,) {
+    public void colorier(int nc) {
         couleur = verifier(nc, 0, COULEUR_MAX);
 
     }
