@@ -16,7 +16,7 @@ public class Rectangle extends Forme {
 
     public void afficher() {
         super.afficher();
-        System.out.println("Largeur du rectangle : " + largeur);
+        System.out.println("Largeur du rect=-angle : " + largeur);
         System.out.println("Hauteur du rectangle : " + hauteur);
     }
 
@@ -27,4 +27,6 @@ public class Rectangle extends Forme {
     public double surface() {
         return largeur * hauteur;
     }
+
+    
 }
